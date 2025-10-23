@@ -60,9 +60,11 @@ def test_part_b(net):
                 else:
                     actual_query_time = query_time
                 
-                # Extract IP addresses from the ANSWER SECTION
+                # Extract IP addresses from the ANSWER SECTION (only A records)
+                # Format: domain.com.  300  IN  A  1.2.3.4
                 answer_section = result.split('ANSWER SECTION:')[1].split('\n\n')[0] if 'ANSWER SECTION:' in result else ''
-                ip_matches = re.findall(r'\b(?:\d{1,3}\.){3}\d{1,3}\b', answer_section)
+                # Match only lines with A records (not AAAA, not query/server info)
+                ip_matches = re.findall(r'\s+IN\s+A\s+((?:\d{1,3}\.){3}\d{1,3})', answer_section)
                 # Remove duplicates while preserving order
                 ip_matches = list(dict.fromkeys(ip_matches))
                 if ip_matches:
@@ -134,21 +136,25 @@ def test_part_b(net):
         print(f"  Throughput:        {throughput:.2f} queries/sec")
         print(f"  Total time:        {total_time:.2f} sec")
     
-    # Summary table
-    print("\n" + "="*80)
-    print("PART B SUMMARY")
-    print("="*80)
-    print(f"{'Host':<6} {'Total':<7} {'Success':<15} {'Failed':<8} {'Avg Lat (ms)':<14} {'Throughput':<15}")
-    print("-"*80)
+    # Summary table with all metrics
+    print("\n" + "="*120)
+    print("PART B SUMMARY - ALL METRICS")
+    print("="*120)
+    print(f"{'Host':<6} {'Total':<7} {'Success':<12} {'Failed':<8} {'Avg Lat':<10} {'Min Lat':<10} {'Max Lat':<10} {'Throughput':<13} {'Time (s)':<10}")
+    print(f"{'':6} {'':7} {'':12} {'':8} {'(ms)':<10} {'(ms)':<10} {'(ms)':<10} {'(q/s)':<13} {'':10}")
+    print("-"*120)
     
     for host_name in ['h1', 'h2', 'h3', 'h4']:
         r = all_results[host_name]
-        success_pct = f"{r['successful']} ({r['successful']*100/r['total']:.1f}%)"
-        print(f"{host_name.upper():<6} {r['total']:<7} {success_pct:<15} {r['failed']:<8} {r['avg_latency']:<14.2f} {r['throughput']:<15.2f}")
+        success_pct = f"{r['successful']} ({r['successful']*100/r['total']:.0f}%)"
+        failed_pct = f"{r['failed']} ({r['failed']*100/r['total']:.0f}%)"
+        print(f"{host_name.upper():<6} {r['total']:<7} {success_pct:<12} {failed_pct:<8} "
+              f"{r['avg_latency']:<10.2f} {r['min_latency']:<10.2f} {r['max_latency']:<10.2f} "
+              f"{r['throughput']:<13.2f} {r['total_time']:<10.2f}")
     
-    print("\n" + "="*80)
+    print("\n" + "="*120)
     print("Part B Complete!")
-    print("="*80)
+    print("="*120)
 
 if __name__ == "__main__":
     print("Run from Mininet CLI:")

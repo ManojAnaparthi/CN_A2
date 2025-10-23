@@ -1,295 +1,295 @@
-DNS Resolution Results for H2 (Simple/Standalone)
+DNS Resolution Results for H2
 ======================================================================
 Total: 100, Successful: 67, Failed: 33
-Average Latency: 173.22 ms
+Average Latency: 197.73 ms
 ======================================================================
 
 7sports.jp
   -> 150.95.219.152
-  Latency: 388.33 ms
+  Latency: 324.00 ms
 
 a-loud.com
   -> 183.111.199.180
-  Latency: 196.68 ms
+  Latency: 192.00 ms
 
 alkoholiker-clan.de
   -> 78.46.86.91
-  Latency: 17.26 ms
+  Latency: 36.00 ms
 
 alltransport.ru
   -> 141.8.192.214
-  Latency: 15.44 ms
+  Latency: 36.00 ms
 
 amedeos.net
   -> 13.248.243.5
   -> 76.223.105.230
-  Latency: 15.05 ms
+  Latency: 44.00 ms
 
 androgyn.org
   -> 217.160.0.127
-  Latency: 15.37 ms
+  Latency: 372.00 ms
 
 atomicbase.com
   -> 192.252.149.20
-  Latency: 15.41 ms
+  Latency: 44.00 ms
 
 bigjournalism.com
-  -> 104.21.75.65
   -> 172.67.215.184
-  Latency: 26.97 ms
+  -> 104.21.75.65
+  Latency: 52.00 ms
 
 brfone.com
-  -> 13.223.25.84
   -> 54.243.117.197
-  Latency: 13.98 ms
+  -> 13.223.25.84
+  Latency: 324.00 ms
 
 brown.edu
   -> 128.148.252.151
-  Latency: 233.00 ms
+  Latency: 264.00 ms
 
 capella.edu
   -> 172.64.146.16
   -> 104.18.41.240
-  Latency: 21.95 ms
+  Latency: 40.00 ms
 
 casco.com
+  -> 18.172.64.33
   -> 18.172.64.64
   -> 18.172.64.87
-  -> 18.172.64.33
   -> 18.172.64.52
-  Latency: 23.71 ms
+  Latency: 208.00 ms
 
 cellularfactory.com
   -> 208.91.197.27
-  Latency: 15.96 ms
+  Latency: 288.00 ms
 
 cncdesign.co.kr
   -> 175.126.62.41
-  Latency: 156.39 ms
+  Latency: 928.00 ms
 
 congsoxanh.com
-  -> 172.67.150.218
   -> 104.21.64.129
-  Latency: 27.57 ms
+  -> 172.67.150.218
+  Latency: 52.00 ms
 
 consejodentistas.org
   -> 213.151.115.236
-  Latency: 331.35 ms
+  Latency: 280.00 ms
 
 datadikdki.net
-  -> 104.21.55.109
   -> 172.67.171.27
-  Latency: 247.17 ms
+  -> 104.21.55.109
+  Latency: 48.00 ms
 
 doommovie.com
   -> 172.67.206.138
   -> 104.21.50.133
-  Latency: 22.72 ms
+  Latency: 36.00 ms
 
 elettronix.com
   -> 217.64.201.130
-  Latency: 15.82 ms
+  Latency: 40.00 ms
 
 gamepsvita.com
   -> 104.21.73.148
   -> 172.67.145.175
-  Latency: 16.54 ms
+  Latency: 44.00 ms
 
 gaybodyblog.com
   -> 148.72.167.158
-  Latency: 17.26 ms
+  Latency: 44.00 ms
 
 gba4iosapp.com
   -> 198.49.23.144
-  Latency: 24.96 ms
+  Latency: 36.00 ms
 
 gucenmez.com
-  -> 172.67.149.173
   -> 104.21.39.228
-  Latency: 25.95 ms
+  -> 172.67.149.173
+  Latency: 44.00 ms
 
 gvowebcast.com
-  -> 104.21.83.130
   -> 172.67.176.152
-  Latency: 22.30 ms
+  -> 104.21.83.130
+  Latency: 48.00 ms
 
 hivelocitymedia.com
-  -> 104.21.1.224
   -> 172.67.152.101
-  Latency: 15.85 ms
+  -> 104.21.1.224
+  Latency: 44.00 ms
 
 horn-elektronik.com
   -> 92.43.119.40
-  Latency: 15.40 ms
+  Latency: 720.00 ms
 
 hotel.ch
   -> 104.21.36.90
   -> 172.67.191.193
-  Latency: 22.01 ms
+  Latency: 44.00 ms
 
 huhgmbh.com
   -> 54.243.117.197
   -> 13.223.25.84
-  Latency: 298.34 ms
+  Latency: 40.00 ms
 
 hznzcn.com
   -> 120.55.81.189
-  Latency: 790.39 ms
+  Latency: 276.00 ms
 
 jabeye.org
   -> 173.236.216.220
-  Latency: 261.18 ms
+  Latency: 44.00 ms
 
 jcwcn.com
   -> 128.14.74.54
-  Latency: 873.53 ms
+  Latency: 44.00 ms
 
 ku.edu
   -> 129.237.135.76
-  Latency: 15.46 ms
+  Latency: 304.00 ms
 
 lighthouse.cc
   -> 192.110.166.196
-  Latency: 15.37 ms
+  Latency: 44.00 ms
 
 likeminded.ca
   -> 198.100.154.154
-  Latency: 24.58 ms
+  Latency: 40.00 ms
 
 ljyelectronic.com
   -> 156.232.155.66
-  Latency: 110.41 ms
+  Latency: 360.00 ms
 
 mattselznick.com
   -> 44.245.84.147
-  Latency: 293.08 ms
+  Latency: 296.00 ms
 
 meintrendyhandy.de
   -> 94.143.8.110
-  Latency: 389.99 ms
+  Latency: 468.00 ms
 
 metabans.com
-  -> 172.67.162.83
   -> 104.21.65.104
-  Latency: 27.08 ms
+  -> 172.67.162.83
+  Latency: 52.00 ms
 
 mplus.hk
   -> 159.138.153.43
-  Latency: 568.48 ms
+  Latency: 520.00 ms
 
 mpskota.com
   -> 20.192.98.161
-  Latency: 23.18 ms
+  Latency: 224.00 ms
 
 mumphi.de
   -> 87.106.48.102
-  Latency: 344.78 ms
+  Latency: 360.00 ms
 
 newpages2u.com
   -> 110.74.174.131
-  Latency: 17.38 ms
+  Latency: 36.00 ms
 
 nipslab.org
   -> 89.46.108.36
-  Latency: 17.94 ms
+  Latency: 640.00 ms
 
 nucre.com
   -> 185.53.179.170
-  Latency: 83.64 ms
+  Latency: 48.00 ms
 
 oberoncompany.com
-  -> 104.21.68.213
   -> 172.67.198.171
-  Latency: 17.93 ms
+  -> 104.21.68.213
+  Latency: 64.00 ms
 
 ohdev.co.uk
   -> 51.89.253.246
-  Latency: 19.89 ms
+  Latency: 40.00 ms
 
 ovtoc.com
   -> 64.190.63.222
-  Latency: 27.80 ms
+  Latency: 280.00 ms
 
 redcrosseth.org
   -> 65.21.72.120
-  Latency: 15.87 ms
+  Latency: 48.00 ms
 
 rousing.dk
   -> 212.237.249.17
-  Latency: 19.25 ms
+  Latency: 40.00 ms
 
 seedy.dk
   -> 93.191.156.22
-  Latency: 827.37 ms
+  Latency: 92.00 ms
 
 sscw.ee
   -> 217.146.69.45
-  Latency: 760.38 ms
+  Latency: 764.00 ms
 
 thankfullyyours.com
   -> 23.227.38.32
-  Latency: 81.07 ms
+  Latency: 104.00 ms
 
 thereeftank.com
-  -> 151.101.1.91
   -> 151.101.193.91
   -> 151.101.65.91
+  -> 151.101.1.91
   -> 151.101.129.91
-  Latency: 22.37 ms
+  Latency: 52.00 ms
 
 thunderex.com
   -> 97.74.85.52
-  Latency: 80.29 ms
+  Latency: 104.00 ms
 
 tomorrowsreflection.com
   -> 34.67.56.17
-  Latency: 81.23 ms
+  Latency: 100.00 ms
 
 tonaci.com
   -> 69.46.47.132
-  Latency: 16.20 ms
+  Latency: 40.00 ms
 
 topilehtipuu.com
   -> 103.224.182.253
-  Latency: 258.85 ms
+  Latency: 36.00 ms
 
 tretsomshop.nl
   -> 23.227.38.32
-  Latency: 292.62 ms
+  Latency: 676.00 ms
 
 tsksv.ru
   -> 91.199.149.117
-  Latency: 899.37 ms
+  Latency: 420.00 ms
 
 uanet.net
   -> 38.55.165.9
-  Latency: 251.51 ms
+  Latency: 404.00 ms
 
 udoo24.com
   -> 185.232.14.229
-  Latency: 21.12 ms
+  Latency: 48.00 ms
 
 vaco.ru
   -> 81.88.217.58
-  Latency: 13.95 ms
+  Latency: 420.00 ms
 
 visualtap.com
   -> 52.20.84.62
-  Latency: 294.62 ms
+  Latency: 324.00 ms
 
 webxtrap.com
   -> 109.234.165.168
-  Latency: 18.42 ms
+  Latency: 36.00 ms
 
 womenology.com
   -> 213.186.33.4
-  Latency: 22.60 ms
+  Latency: 48.00 ms
 
 zamlelova.ru
   -> 79.174.69.231
-  Latency: 405.87 ms
+  Latency: 44.00 ms
 
 zilch.org
   -> 104.237.133.18
-  Latency: 1041.71 ms
+  Latency: 636.00 ms
 

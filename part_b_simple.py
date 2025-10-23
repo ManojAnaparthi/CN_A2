@@ -90,7 +90,10 @@ def test_dns_resolution(domain_file, host_name):
         'successful': successful,
         'failed': failed,
         'avg_latency': avg_latency,
-        'throughput': throughput
+        'min_latency': min_latency,
+        'max_latency': max_latency,
+        'throughput': throughput,
+        'total_time': total_time
     }
 
 def main():
@@ -113,20 +116,24 @@ def main():
         result = test_dns_resolution(domain_file, host_name)
         results.append(result)
     
-    # Summary table
-    print("\n" + "="*80)
-    print("PART B SUMMARY")
-    print("="*80)
-    print(f"{'Host':<6} {'Total':<7} {'Success':<15} {'Failed':<8} {'Avg Lat (ms)':<14} {'Throughput':<15}")
-    print("-"*80)
+    # Summary table with all metrics
+    print("\n" + "="*120)
+    print("PART B SUMMARY - ALL METRICS")
+    print("="*120)
+    print(f"{'Host':<6} {'Total':<7} {'Success':<12} {'Failed':<8} {'Avg Lat':<10} {'Min Lat':<10} {'Max Lat':<10} {'Throughput':<13} {'Time (s)':<10}")
+    print(f"{'':6} {'':7} {'':12} {'':8} {'(ms)':<10} {'(ms)':<10} {'(ms)':<10} {'(q/s)':<13} {'':10}")
+    print("-"*120)
     
     for r in results:
-        success_pct = f"{r['successful']} ({r['successful']*100/r['total']:.1f}%)"
-        print(f"{r['host']:<6} {r['total']:<7} {success_pct:<15} {r['failed']:<8} {r['avg_latency']:<14.2f} {r['throughput']:<15.2f}")
+        success_pct = f"{r['successful']} ({r['successful']*100/r['total']:.0f}%)"
+        failed_pct = f"{r['failed']} ({r['failed']*100/r['total']:.0f}%)"
+        print(f"{r['host']:<6} {r['total']:<7} {success_pct:<12} {failed_pct:<8} "
+              f"{r['avg_latency']:<10.2f} {r['min_latency']:<10.2f} {r['max_latency']:<10.2f} "
+              f"{r['throughput']:<13.2f} {r['total_time']:<10.2f}")
     
-    print("\n" + "="*80)
+    print("\n" + "="*120)
     print("Part B Complete!")
-    print("="*80)
+    print("="*120)
 
 if __name__ == "__main__":
     main()
