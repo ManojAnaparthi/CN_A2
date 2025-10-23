@@ -1,11 +1,8 @@
 from mininet.topo import Topo
 from mininet.net import Mininet
-from mininet.node import OVSController, RemoteController
+from mininet.node import OVSController
 from mininet.link import TCLink
 from mininet.cli import CLI
-from mininet.log import setLogLevel
-import time
-import subprocess
 
 class DNSLinear(Topo):
     def build(self):
@@ -35,42 +32,4 @@ class DNSLinear(Topo):
         self.addLink(s2, s3, cls=TCLink, bw=100, delay='8ms')
         self.addLink(s3, s4, cls=TCLink, bw=100, delay='10ms')
 
-def run_dns_tests():
-    setLogLevel('info')
-    
-    # Create network
-    net = Mininet(topo=DNSLinear(), controller=OVSController, link=TCLink)
-    net.start()
-    
-    # Configure DNS for internet access (use Google DNS as default)
-    print("Configuring DNS settings...")
-    for host_name in ['h1', 'h2', 'h3', 'h4']:
-        host = net.get(host_name)
-        # Set Google DNS as default resolver
-        host.cmd('echo "nameserver 8.8.8.8" > /etc/resolv.conf')
-        host.cmd('echo "nameserver 8.8.4.4" >> /etc/resolv.conf')
-        print(f"Configured DNS for {host_name}")
-    
-    # Test connectivity first
-    print("\nTesting basic connectivity...")
-    hosts = ['h1', 'h2', 'h3', 'h4']
-    for i in range(len(hosts)):
-        for j in range(i+1, len(hosts)):
-            print(f"Testing {hosts[i]} -> {hosts[j]}")
-            result = net.ping([net.get(hosts[i]), net.get(hosts[j])], timeout=1)
-    
-    print("\nTesting internet connectivity...")
-    for host_name in hosts:
-        host = net.get(host_name)
-        result = host.cmd('ping -c 2 8.8.8.8')
-        if "64 bytes from" in result:
-            print(f"✓ {host_name} can reach internet")
-        else:
-            print(f"✗ {host_name} cannot reach internet")
-    
-    return net
-
-if __name__ == '__main__':
-    net = run_dns_tests()
-    CLI(net)
-    net.stop()
+topos = {'dnsline': (lambda: DNSLinear())}

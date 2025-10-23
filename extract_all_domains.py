@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Batch DNS Domain Extractor for CS331 Assignment 2
 Uses PcapReader approach from CN_A1 for memory-efficient processing
@@ -62,10 +61,14 @@ def extract_domains_from_pcap(pcap_file):
 def process_all_pcaps():
     """Process all PCAP files in as2pcaps directory"""
     pcap_dir = 'as2pcaps'
+    output_dir = 'domains'
     
     if not os.path.exists(pcap_dir):
         print(f"Error: Directory '{pcap_dir}' not found")
         return
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
     
     pcap_files = glob.glob(os.path.join(pcap_dir, '*.pcap'))
     
@@ -83,7 +86,7 @@ def process_all_pcaps():
     
     for pcap_file in sorted(pcap_files):
         base_name = os.path.basename(pcap_file).replace('.pcap', '')
-        output_file = f"domains_{base_name}.txt"
+        output_file = os.path.join(output_dir, f"domains_{base_name}.txt")
         
         print(f"Processing: {os.path.basename(pcap_file)}")
         

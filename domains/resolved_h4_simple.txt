@@ -1,0 +1,327 @@
+DNS Resolution Results for H4 (Simple/Standalone)
+======================================================================
+Total: 100, Successful: 73, Failed: 27
+Average Latency: 175.75 ms
+======================================================================
+
+22hotmail.com
+  -> 20.236.44.162
+  -> 20.76.201.171
+  -> 20.70.246.20
+  -> 20.112.250.133
+  -> 20.231.239.246
+  Latency: 250.75 ms
+
+2xfzy.com
+  -> 23.226.181.51
+  Latency: 17.56 ms
+
+abhair.com
+  -> 23.227.38.32
+  Latency: 303.49 ms
+
+adverman.com
+  -> 77.87.198.232
+  Latency: 397.56 ms
+
+ana-sofia.pt
+  -> 185.32.190.38
+  Latency: 757.33 ms
+
+arrabonet.hu
+  -> 213.163.44.68
+  Latency: 392.80 ms
+
+auto-klad.ru
+  -> 62.122.170.171
+  Latency: 766.98 ms
+
+b2b2c.ca
+  -> 13.107.246.36
+  Latency: 308.33 ms
+
+bhhsneproperties.com
+  -> 8.43.189.250
+  Latency: 15.59 ms
+
+breezelaw.com
+  -> 76.223.54.146
+  -> 13.248.169.48
+  Latency: 217.02 ms
+
+c0.pl
+  -> 95.211.144.68
+  Latency: 348.74 ms
+
+capequilog.com
+  -> 208.94.116.26
+  Latency: 16.37 ms
+
+celerity.com
+  -> 35.188.214.201
+  Latency: 27.26 ms
+
+cellslider.net
+  -> 20.237.25.126
+  Latency: 43.81 ms
+
+closerdiets.com
+  -> 5.22.145.121
+  -> 5.22.145.16
+  Latency: 24.25 ms
+
+contentremarketing.com
+  -> 216.10.240.70
+  Latency: 17.09 ms
+
+deine-bahn.de
+  -> 92.204.239.74
+  Latency: 139.35 ms
+
+djbarryblends.com
+  -> 54.225.184.165
+  Latency: 16.56 ms
+
+dmg-dental.com
+  -> 49.13.234.53
+  Latency: 17.03 ms
+
+empclan.com
+  -> 64.26.30.251
+  Latency: 378.42 ms
+
+florenseusa.com
+  -> 34.95.203.179
+  Latency: 83.87 ms
+
+gardeninginflorida.com
+  -> 76.223.67.189
+  -> 13.248.213.45
+  Latency: 86.23 ms
+
+go2jump.com
+  -> 34.175.54.178
+  Latency: 83.29 ms
+
+godo.co.kr
+  -> 180.210.81.80
+  Latency: 460.77 ms
+
+grandcanyongrandhotel.com
+  -> 142.44.217.176
+  Latency: 20.62 ms
+
+greens.my
+  -> 172.67.132.13
+  -> 104.21.4.120
+  Latency: 24.74 ms
+
+gurukulonline.com
+  -> 76.223.54.146
+  -> 13.248.169.48
+  Latency: 217.74 ms
+
+gustissimo.it
+  -> 178.255.74.135
+  -> 178.255.74.104
+  -> 178.255.74.133
+  Latency: 15.17 ms
+
+hackthissite.org
+  -> 137.74.187.101
+  -> 137.74.187.104
+  -> 137.74.187.103
+  -> 137.74.187.100
+  -> 137.74.187.102
+  Latency: 15.88 ms
+
+ilikecrochet.com
+  -> 192.124.249.58
+  Latency: 23.51 ms
+
+iointegrators.com
+  -> 76.120.251.25
+  Latency: 366.76 ms
+
+itgeorgia.co
+  -> 64.98.135.85
+  Latency: 14.67 ms
+
+kanoon-ansar.org
+  -> 194.59.214.75
+  Latency: 372.54 ms
+
+kiyimuzik.com
+  -> 104.21.63.112
+  -> 172.67.145.101
+  Latency: 23.78 ms
+
+koopsmodellbau.de
+  -> 217.160.0.247
+  Latency: 15.38 ms
+
+lespetiteschoses.com
+  -> 23.227.38.65
+  Latency: 111.70 ms
+
+livescan4all.com
+  -> 149.20.203.54
+  Latency: 273.25 ms
+
+magic-illusion.ru
+  -> 104.21.4.130
+  -> 172.67.132.25
+  Latency: 32.97 ms
+
+majorleaguelacrosse.com
+  -> 172.67.170.123
+  -> 104.21.87.175
+  Latency: 25.77 ms
+
+medintime.ru
+  -> 104.21.2.236
+  -> 172.67.129.206
+  Latency: 404.68 ms
+
+meditekyazilim.net
+  -> 185.95.3.218
+  Latency: 15.19 ms
+
+megi.cz
+  -> 45.138.107.20
+  -> 45.138.107.19
+  Latency: 659.32 ms
+
+millionfareast.com
+  -> 72.167.243.77
+  Latency: 81.11 ms
+
+miscellaneousheathen.com
+  -> 75.127.72.229
+  Latency: 15.74 ms
+
+msf.be
+  -> 77.241.81.151
+  Latency: 34.89 ms
+
+myfantasticpark.es
+  -> 89.31.143.90
+  Latency: 292.97 ms
+
+njafe.org
+  -> 103.224.182.253
+  Latency: 15.53 ms
+
+oberandsons.com
+  -> 34.128.166.114
+  Latency: 277.04 ms
+
+ok-magazine.ru
+  -> 188.124.32.70
+  Latency: 774.82 ms
+
+onetoshop.nl
+  -> 35.204.76.89
+  Latency: 25.55 ms
+
+oneworldinfo.com
+  -> 13.223.25.84
+  -> 54.243.117.197
+  Latency: 17.97 ms
+
+originalmagicart.com
+  -> 15.197.225.128
+  -> 3.33.251.168
+  Latency: 83.68 ms
+
+overseasmedical.com
+  -> 213.123.239.55
+  Latency: 376.76 ms
+
+pces.in
+  -> 195.35.44.242
+  Latency: 88.80 ms
+
+pilsnerurquell.com
+  -> 93.185.98.138
+  Latency: 15.91 ms
+
+ranocchi.it
+  -> 52.18.99.110
+  Latency: 246.50 ms
+
+roche-applied-science.com
+  -> 149.250.245.221
+  Latency: 17.60 ms
+
+rolflouisville.com
+  -> 208.88.75.191
+  Latency: 252.34 ms
+
+rositehost.com
+  -> 178.157.78.2
+  Latency: 16.89 ms
+
+rubenquinones.com
+  -> 3.33.251.168
+  -> 15.197.225.128
+  Latency: 17.60 ms
+
+saharaimport.com
+  -> 176.9.116.24
+  Latency: 384.46 ms
+
+silkroadtours.com
+  -> 23.236.62.147
+  Latency: 218.33 ms
+
+sitiweb.us
+  -> 136.243.45.246
+  Latency: 16.06 ms
+
+solcredito.es
+  -> 18.239.153.17
+  -> 18.239.153.56
+  -> 18.239.153.86
+  -> 18.239.153.67
+  Latency: 205.26 ms
+
+stark.dk
+  -> 20.50.2.80
+  Latency: 19.56 ms
+
+supportpabiomass.org
+  -> 162.248.51.100
+  Latency: 372.31 ms
+
+sweathelp.org
+  -> 107.180.114.231
+  Latency: 16.60 ms
+
+thepropertyvault.co.uk
+  -> 76.223.67.189
+  -> 13.248.213.45
+  Latency: 105.11 ms
+
+ugotrelis.com
+  -> 213.186.33.82
+  Latency: 389.90 ms
+
+valdo.com
+  -> 23.227.38.65
+  Latency: 19.85 ms
+
+viahttps.com
+  -> 64.251.0.59
+  Latency: 589.07 ms
+
+vinayaprabha.com
+  -> 185.230.63.186
+  -> 185.230.63.107
+  -> 185.230.63.171
+  Latency: 16.06 ms
+
+wordai.com
+  -> 23.111.159.202
+  Latency: 21.32 ms
+

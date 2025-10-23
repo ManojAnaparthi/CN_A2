@@ -1,0 +1,334 @@
+DNS Resolution Results for H1 (Simple/Standalone)
+======================================================================
+Total: 100, Successful: 71, Failed: 29
+Average Latency: 240.71 ms
+======================================================================
+
+2brightsparks.co.uk
+  -> 18.161.111.88
+  -> 18.161.111.14
+  -> 18.161.111.12
+  -> 18.161.111.79
+  Latency: 81.25 ms
+
+7dfps.com
+  -> 172.67.161.32
+  -> 104.21.9.172
+  Latency: 26.88 ms
+
+advertos.ru
+  -> 45.92.176.75
+  Latency: 16.28 ms
+
+afairjudgement.com
+  -> 104.21.56.56
+  -> 172.67.178.132
+  Latency: 30.77 ms
+
+afresnohomeinspector.com
+  -> 67.225.203.79
+  Latency: 632.92 ms
+
+alchemedialtd.com
+  -> 68.66.224.29
+  Latency: 22.60 ms
+
+alenpuaca.com
+  -> 67.205.28.253
+  Latency: 286.60 ms
+
+amorefieldlife.com
+  -> 162.241.226.124
+  Latency: 19.15 ms
+
+aqvr.com
+  -> 89.117.19.57
+  Latency: 253.06 ms
+
+asadventure.com
+  -> 18.161.97.129
+  -> 18.161.97.123
+  -> 18.161.97.64
+  -> 18.161.97.23
+  Latency: 54.98 ms
+
+astrumonline.ru
+  -> 217.69.136.59
+  Latency: 1170.75 ms
+
+australiatradenow.com
+  -> 52.221.30.142
+  -> 52.77.97.73
+  Latency: 35.61 ms
+
+autofirenze.biz
+  -> 89.46.109.17
+  Latency: 396.67 ms
+
+b-matrix.com
+  -> 137.135.108.176
+  Latency: 311.27 ms
+
+bikesandtransit.com
+  -> 192.0.78.24
+  -> 192.0.78.25
+  Latency: 25.03 ms
+
+blueridgelife.com
+  -> 192.124.249.6
+  Latency: 17.58 ms
+
+buynowfromusa.com
+  -> 35.223.118.1
+  Latency: 27.38 ms
+
+camcard.com
+  -> 184.169.209.203
+  -> 184.169.200.40
+  Latency: 21.34 ms
+
+caricsports.com
+  -> 104.21.51.12
+  -> 172.67.216.98
+  Latency: 23.66 ms
+
+cetsi.fr
+  -> 91.151.64.24
+  Latency: 15.41 ms
+
+datepanchang.com
+  -> 13.75.66.141
+  Latency: 127.13 ms
+
+diamondknot.com
+  -> 198.49.23.145
+  -> 198.185.159.144
+  -> 198.49.23.144
+  -> 198.185.159.145
+  Latency: 81.73 ms
+
+door2games.com
+  -> 160.153.0.43
+  Latency: 261.09 ms
+
+energybulbs.co.uk
+  -> 23.227.38.32
+  Latency: 388.47 ms
+
+ex-jw.org
+  -> 185.230.63.186
+  -> 185.230.63.171
+  -> 185.230.63.107
+  Latency: 15.04 ms
+
+fini.net
+  -> 198.57.192.137
+  Latency: 16.60 ms
+
+forpsi.net
+  -> 85.255.6.237
+  Latency: 655.44 ms
+
+gamemob.com
+  -> 3.33.130.190
+  -> 15.197.148.33
+  Latency: 78.38 ms
+
+gensee.com
+  -> 211.150.89.25
+  Latency: 77.37 ms
+
+group14eng.com
+  -> 192.124.249.164
+  Latency: 250.35 ms
+
+gusbi.com
+  -> 185.145.195.19
+  Latency: 16.31 ms
+
+healthnews4you.com
+  -> 15.197.148.33
+  -> 3.33.130.190
+  Latency: 82.63 ms
+
+hemcolubricants.com
+  -> 194.9.94.86
+  -> 194.9.94.85
+  Latency: 17.93 ms
+
+hornil.com
+  -> 183.111.138.226
+  Latency: 163.66 ms
+
+house-sg.com
+  -> 208.98.40.207
+  Latency: 600.15 ms
+
+i-butterfly.ru
+  -> 172.67.151.138
+  -> 104.21.88.172
+  Latency: 442.70 ms
+
+iag-inc.com
+  -> 103.224.182.253
+  Latency: 18.71 ms
+
+informarexresistere.fr
+  -> 178.32.143.165
+  Latency: 448.63 ms
+
+interfloracentral.co.uk
+  -> 217.69.32.44
+  Latency: 713.79 ms
+
+jantv.in
+  -> 172.67.132.252
+  -> 104.21.5.51
+  Latency: 25.84 ms
+
+junio.com
+  -> 209.196.144.25
+  Latency: 300.36 ms
+
+kathihill.com
+  -> 159.65.187.116
+  Latency: 27.31 ms
+
+kennethehartman.com
+  -> 192.0.78.24
+  -> 192.0.78.25
+  Latency: 29.06 ms
+
+kh.ua
+  -> 195.69.185.211
+  Latency: 418.11 ms
+
+khsm.ru
+  -> 91.247.37.5
+  Latency: 18.14 ms
+
+livelinks.com
+  -> 108.158.61.13
+  -> 108.158.61.89
+  -> 108.158.61.12
+  -> 108.158.61.76
+  Latency: 29.36 ms
+
+localhost.re
+  -> 172.67.163.57
+  -> 104.21.50.127
+  Latency: 95.06 ms
+
+lozo.com
+  -> 44.214.239.39
+  -> 107.21.144.47
+  Latency: 30.02 ms
+
+luckypuppygames.com
+  -> 172.233.219.78
+  -> 172.233.219.123
+  -> 172.233.219.49
+  -> 172.237.146.8
+  -> 172.237.146.38
+  -> 172.237.146.25
+  Latency: 312.21 ms
+
+memeblender.com
+  -> 104.21.7.158
+  -> 172.67.136.240
+  Latency: 161.76 ms
+
+mesites.co.za
+  -> 41.204.200.130
+  Latency: 504.08 ms
+
+michiganbulb.com
+  -> 208.27.142.168
+  Latency: 17.01 ms
+
+mwzip.com
+  -> 172.67.194.102
+  -> 104.21.20.205
+  Latency: 24.64 ms
+
+newstetic.com
+  -> 172.67.131.89
+  -> 104.21.3.241
+  Latency: 24.93 ms
+
+ondemandappliancerepair.com
+  -> 74.208.236.102
+  Latency: 17.93 ms
+
+owlcreek.com
+  -> 205.178.189.129
+  Latency: 18.59 ms
+
+pictures-thailand.com
+  -> 66.96.149.1
+  Latency: 310.34 ms
+
+pieceinch.com
+  -> 172.67.201.136
+  -> 104.21.66.64
+  Latency: 24.49 ms
+
+portclydegeneralstore.com
+  -> 198.49.23.144
+  -> 198.49.23.145
+  -> 198.185.159.145
+  -> 198.185.159.144
+  Latency: 258.31 ms
+
+ppsuika.ac.id
+  -> 203.175.8.54
+  Latency: 16.10 ms
+
+progettogiovani.pd.it
+  -> 185.213.115.40
+  Latency: 389.52 ms
+
+radioterminal.ru
+  -> 188.225.40.161
+  Latency: 423.57 ms
+
+reprosystems.ru
+  -> 172.67.167.102
+  -> 104.21.59.11
+  Latency: 405.53 ms
+
+sdccdonline.net
+  -> 209.129.16.41
+  Latency: 4251.95 ms
+
+shivalikprints.com
+  -> 162.215.11.92
+  Latency: 20.01 ms
+
+shqqaa.com
+  -> 172.67.134.61
+  -> 104.21.25.127
+  Latency: 22.07 ms
+
+simternet.com
+  -> 3.33.251.168
+  -> 15.197.225.128
+  Latency: 21.03 ms
+
+stunninggirls.net
+  -> 34.95.33.229
+  Latency: 176.79 ms
+
+toaskfuture.com
+  -> 119.18.54.195
+  Latency: 17.08 ms
+
+triggerfish.se
+  -> 162.159.135.42
+  -> 162.159.134.42
+  Latency: 375.15 ms
+
+wrestlingfanssuck.com
+  -> 62.149.128.40
+  Latency: 398.83 ms
+

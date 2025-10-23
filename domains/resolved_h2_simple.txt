@@ -1,0 +1,295 @@
+DNS Resolution Results for H2 (Simple/Standalone)
+======================================================================
+Total: 100, Successful: 67, Failed: 33
+Average Latency: 173.15 ms
+======================================================================
+
+7sports.jp
+  -> 150.95.219.152
+  Latency: 299.14 ms
+
+a-loud.com
+  -> 183.111.199.180
+  Latency: 169.19 ms
+
+alkoholiker-clan.de
+  -> 78.46.86.91
+  Latency: 16.45 ms
+
+alltransport.ru
+  -> 141.8.192.214
+  Latency: 16.64 ms
+
+amedeos.net
+  -> 76.223.105.230
+  -> 13.248.243.5
+  Latency: 82.74 ms
+
+androgyn.org
+  -> 217.160.0.127
+  Latency: 344.01 ms
+
+atomicbase.com
+  -> 192.252.149.20
+  Latency: 16.02 ms
+
+bigjournalism.com
+  -> 172.67.215.184
+  -> 104.21.75.65
+  Latency: 28.37 ms
+
+brfone.com
+  -> 54.243.117.197
+  -> 13.223.25.84
+  Latency: 303.31 ms
+
+brown.edu
+  -> 128.148.252.151
+  Latency: 16.18 ms
+
+capella.edu
+  -> 172.64.146.16
+  -> 104.18.41.240
+  Latency: 22.51 ms
+
+casco.com
+  -> 18.172.64.33
+  -> 18.172.64.87
+  -> 18.172.64.52
+  -> 18.172.64.64
+  Latency: 26.18 ms
+
+cellularfactory.com
+  -> 208.91.197.27
+  Latency: 17.48 ms
+
+cncdesign.co.kr
+  -> 175.126.62.41
+  Latency: 17.23 ms
+
+congsoxanh.com
+  -> 104.21.64.129
+  -> 172.67.150.218
+  Latency: 23.02 ms
+
+consejodentistas.org
+  -> 213.151.115.236
+  Latency: 494.17 ms
+
+datadikdki.net
+  -> 172.67.171.27
+  -> 104.21.55.109
+  Latency: 26.59 ms
+
+doommovie.com
+  -> 104.21.50.133
+  -> 172.67.206.138
+  Latency: 19.08 ms
+
+elettronix.com
+  -> 217.64.201.130
+  Latency: 28.57 ms
+
+gamepsvita.com
+  -> 172.67.145.175
+  -> 104.21.73.148
+  Latency: 24.21 ms
+
+gaybodyblog.com
+  -> 148.72.167.158
+  Latency: 23.56 ms
+
+gba4iosapp.com
+  -> 198.49.23.144
+  Latency: 19.01 ms
+
+gucenmez.com
+  -> 104.21.39.228
+  -> 172.67.149.173
+  Latency: 36.71 ms
+
+gvowebcast.com
+  -> 104.21.83.130
+  -> 172.67.176.152
+  Latency: 26.05 ms
+
+hivelocitymedia.com
+  -> 172.67.152.101
+  -> 104.21.1.224
+  Latency: 49.96 ms
+
+horn-elektronik.com
+  -> 92.43.119.40
+  Latency: 710.20 ms
+
+hotel.ch
+  -> 104.21.36.90
+  -> 172.67.191.193
+  Latency: 23.26 ms
+
+huhgmbh.com
+  -> 13.223.25.84
+  -> 54.243.117.197
+  Latency: 45.35 ms
+
+hznzcn.com
+  -> 120.55.81.189
+  Latency: 294.42 ms
+
+jabeye.org
+  -> 173.236.216.220
+  Latency: 322.90 ms
+
+jcwcn.com
+  -> 128.14.74.54
+  Latency: 477.16 ms
+
+ku.edu
+  -> 129.237.135.76
+  Latency: 20.67 ms
+
+lighthouse.cc
+  -> 192.110.166.196
+  Latency: 490.51 ms
+
+likeminded.ca
+  -> 198.100.154.154
+  Latency: 369.06 ms
+
+ljyelectronic.com
+  -> 156.232.155.66
+  Latency: 113.16 ms
+
+mattselznick.com
+  -> 44.245.84.147
+  Latency: 266.18 ms
+
+meintrendyhandy.de
+  -> 94.143.8.110
+  Latency: 760.20 ms
+
+metabans.com
+  -> 172.67.162.83
+  -> 104.21.65.104
+  Latency: 21.08 ms
+
+mplus.hk
+  -> 159.138.153.43
+  Latency: 518.72 ms
+
+mpskota.com
+  -> 20.192.98.161
+  Latency: 35.09 ms
+
+mumphi.de
+  -> 87.106.48.102
+  Latency: 19.46 ms
+
+newpages2u.com
+  -> 110.74.174.131
+  Latency: 18.77 ms
+
+nipslab.org
+  -> 89.46.108.36
+  Latency: 451.79 ms
+
+nucre.com
+  -> 185.53.179.170
+  Latency: 17.42 ms
+
+oberoncompany.com
+  -> 104.21.68.213
+  -> 172.67.198.171
+  Latency: 25.96 ms
+
+ohdev.co.uk
+  -> 51.89.253.246
+  Latency: 23.07 ms
+
+ovtoc.com
+  -> 64.190.63.222
+  Latency: 620.83 ms
+
+redcrosseth.org
+  -> 65.21.72.120
+  Latency: 619.47 ms
+
+rousing.dk
+  -> 212.237.249.17
+  Latency: 16.69 ms
+
+seedy.dk
+  -> 93.191.156.22
+  Latency: 755.34 ms
+
+sscw.ee
+  -> 217.146.69.45
+  Latency: 19.51 ms
+
+thankfullyyours.com
+  -> 23.227.38.32
+  Latency: 80.14 ms
+
+thereeftank.com
+  -> 151.101.1.91
+  -> 151.101.193.91
+  -> 151.101.129.91
+  -> 151.101.65.91
+  Latency: 20.78 ms
+
+thunderex.com
+  -> 97.74.85.52
+  Latency: 81.96 ms
+
+tomorrowsreflection.com
+  -> 34.67.56.17
+  Latency: 80.40 ms
+
+tonaci.com
+  -> 69.46.47.132
+  Latency: 24.41 ms
+
+topilehtipuu.com
+  -> 103.224.182.253
+  Latency: 19.20 ms
+
+tretsomshop.nl
+  -> 23.227.38.32
+  Latency: 294.33 ms
+
+tsksv.ru
+  -> 91.199.149.117
+  Latency: 405.59 ms
+
+uanet.net
+  -> 38.55.165.9
+  Latency: 267.16 ms
+
+udoo24.com
+  -> 185.232.14.229
+  Latency: 51.65 ms
+
+vaco.ru
+  -> 81.88.217.58
+  Latency: 16.40 ms
+
+visualtap.com
+  -> 52.20.84.62
+  Latency: 16.40 ms
+
+webxtrap.com
+  -> 109.234.165.168
+  Latency: 373.32 ms
+
+womenology.com
+  -> 213.186.33.4
+  Latency: 23.79 ms
+
+zamlelova.ru
+  -> 79.174.69.231
+  Latency: 17.52 ms
+
+zilch.org
+  -> 104.237.133.18
+  Latency: 625.53 ms
+
