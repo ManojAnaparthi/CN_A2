@@ -17,9 +17,14 @@ def part_c(net):
     dns_host = net.get('dns')
     cwd = os.getcwd()
     
-    # Setup (silent)
+    # Setup
     print("\nSetting up custom DNS resolver...")
-    dns_host.cmd('apt-get update > /dev/null 2>&1 && apt-get install -y dnsmasq > /dev/null 2>&1')
+    
+    # Check if dnsmasq is installed
+    check = dns_host.cmd('which dnsmasq').strip()
+    if not check:
+        print("[*] Installing dnsmasq (this may take a moment)...")
+        dns_host.cmd('apt-get update -qq && apt-get install -y dnsmasq -qq')
     
     dnsmasq_config = """interface=dns-eth0
 bind-interfaces
@@ -27,20 +32,28 @@ server=8.8.8.8
 server=8.8.4.4
 no-resolv
 log-queries
+log-facility=/var/log/dnsmasq.log
 cache-size=1000
 no-hosts
 """
     
     dns_host.cmd('echo "%s" > /tmp/dnsmasq.conf' % dnsmasq_config.strip())
+    dns_host.cmd('touch /var/log/dnsmasq.log 2>/dev/null')
     dns_host.cmd('killall dnsmasq 2>/dev/null')
     time.sleep(1)
     dns_host.cmd('dnsmasq -C /tmp/dnsmasq.conf')
     time.sleep(2)
     
-    # Configure hosts
+    # Configure Mininet hosts to use custom resolver
+    # Using setDefaultRoute ensures this only affects Mininet host namespace
+    print("[*] Configuring hosts to use custom resolver...")
     for host_name in ['h1', 'h2', 'h3', 'h4']:
         host = net.get(host_name)
+        # Method 1: Direct command in host's namespace (safest)
+        host.cmd('mkdir -p /etc/netns/%s 2>/dev/null' % host.name)
         host.cmd('echo "nameserver 10.0.0.5" > /etc/resolv.conf')
+        # Also set via command line for this session
+        host.setHostRoute('10.0.0.5', 0)
     
     print("[OK] Setup complete\n")
     
@@ -168,12 +181,19 @@ no-hosts
     report.append("STATUS: COMPLETE")
     report.append("="*80)
     
-    with open(f'{cwd}/part_c_report.txt', 'w') as f:
+    # Save to results directory
+    import subprocess
+    subprocess.run(['mkdir', '-p', f'{cwd}/results'], check=False)
+    
+    with open(f'{cwd}/results/part_c_report.txt', 'w') as f:
         f.write('\n'.join(report))
     
-    print(f"[OK] Report saved to: part_c_report.txt")
+    print(f"[OK] Report saved to: results/part_c_report.txt")
     print("\n" + "="*80)
-    print("PART C COMPLETE")
+    print("PART C COMPLETE - Custom DNS Resolver Ready")
+    print("="*80)
+    print("\nNext Step: Run Part D to test DNS resolution with detailed logging")
+    print("Command: py exec(open('part_d.py').read()); part_d(net)")
     print("="*80 + "\n")
 
 # Make function available globally

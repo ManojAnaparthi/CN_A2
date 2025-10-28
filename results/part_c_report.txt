@@ -1,0 +1,33 @@
+================================================================================
+PART C: CUSTOM DNS RESOLVER - REPORT
+================================================================================
+
+CONFIGURATION:
+  - Custom DNS Resolver: 10.0.0.5 (dns host)
+  - Upstream DNS: 8.8.8.8, 8.8.4.4
+  - Cache Size: 1000 entries
+  - Configured Hosts: h1, h2, h3, h4
+
+VERIFICATION:
+  [PASS] dnsmasq service running
+  [PASS] All hosts configured with nameserver 10.0.0.5
+  [PASS] DNS resolution functional
+
+PROOF:
+  1. dig output shows SERVER: 10.0.0.5#53
+     ;; SERVER: 10.0.0.5#53(10.0.0.5) (UDP)
+
+  2. Packet capture: 5 DNS packets on dns-eth0
+     File: /tmp/dns_capture.txt
+
+  3. Blocked upstream test:
+     - Direct queries to 8.8.8.8: BLOCKED
+     - Queries via 10.0.0.5: SUCCESSFUL
+     - Conclusion: All DNS traffic routes through custom resolver
+
+  4. Cache: Configured with 1000 entries
+     Repeated queries show reduced latency
+
+================================================================================
+STATUS: COMPLETE
+================================================================================

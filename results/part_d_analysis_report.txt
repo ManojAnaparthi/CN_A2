@@ -1,0 +1,250 @@
+================================================================================
+PART D: Detailed Analysis Report - Phase 1 vs Phase 2 Comparison
+================================================================================
+
+First 10 Re-queried Domains from H1:
+--------------------------------------------------------------------------------
+
+1. 2brightsparks.co.uk
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: m.root-servers.net (202.12.27.33)
+         → TLD: dns3.nic.uk (213.248.220.1)
+         → Authoritative: ns-1782.awsdns-30.co.uk (205.251.198.246)
+      Servers Visited:  4 (traced)
+      Response:         143.204.55.129, 143.204.55.7, 143.204.55.44, 143.204.55.11
+      RTT:              96.0 ms
+      Total Time:       2995.58 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         143.204.55.129, 143.204.55.7, 143.204.55.44, 143.204.55.11
+      RTT:              24.0 ms
+      Total Time:       45.12 ms
+      Speedup:          4.0x faster
+      Latency Reduction: 75%
+
+2. 7dfps.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: i.root-servers.net (192.36.148.17)
+         → TLD: c.gtld-servers.net (192.26.92.30)
+         → Authoritative: rene.ns.cloudflare.com (162.159.44.180)
+      Servers Visited:  4 (traced)
+      Response:         172.67.161.32, 104.21.9.172
+      RTT:              64.0 ms
+      Total Time:       4404.48 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         172.67.161.32, 104.21.9.172
+      RTT:              28.0 ms
+      Total Time:       43.73 ms
+      Speedup:          2.3x faster
+      Latency Reduction: 56%
+
+3. advertos.ru
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: c.root-servers.net (192.33.4.12)
+         → TLD: b.dns.ripn.net (194.85.252.62)
+         → Authoritative: dns4.fastdns24.link (95.216.25.5)
+      Servers Visited:  4 (traced)
+      Response:         45.92.176.75
+      RTT:              60.0 ms
+      Total Time:       4160.38 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         45.92.176.75
+      RTT:              20.0 ms
+      Total Time:       44.68 ms
+      Speedup:          3.0x faster
+      Latency Reduction: 67%
+
+4. afairjudgement.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: g.root-servers.net (192.112.36.4)
+         → TLD: m.gtld-servers.net (192.55.83.30)
+         → Authoritative: gail.ns.cloudflare.com (172.64.32.116)
+      Servers Visited:  4 (traced)
+      Response:         104.21.56.56, 172.67.178.132
+      RTT:              64.0 ms
+      Total Time:       1402.19 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         104.21.56.56, 172.67.178.132
+      RTT:              24.0 ms
+      Total Time:       49.24 ms
+      Speedup:          2.7x faster
+      Latency Reduction: 62%
+
+5. afresnohomeinspector.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: b.root-servers.net (170.247.170.2)
+         → TLD: m.gtld-servers.net (192.55.83.30)
+         → Authoritative: ns2.homeinspectorpro.org (67.225.203.79)
+      Servers Visited:  4 (traced)
+      Response:         67.225.203.79
+      RTT:              64.0 ms
+      Total Time:       5586.39 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         67.225.203.79
+      RTT:              24.0 ms
+      Total Time:       46.46 ms
+      Speedup:          2.7x faster
+      Latency Reduction: 62%
+
+6. alchemedialtd.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: a.root-servers.net (198.41.0.4)
+         → TLD: k.gtld-servers.net (192.52.178.30)
+         → Authoritative: ns1.a2hosting.com (13.248.158.180)
+      Servers Visited:  4 (traced)
+      Response:         68.66.224.29
+      RTT:              56.0 ms
+      Total Time:       4271.22 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         68.66.224.29
+      RTT:              24.0 ms
+      Total Time:       34.18 ms
+      Speedup:          2.3x faster
+      Latency Reduction: 57%
+
+7. alenpuaca.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: g.root-servers.net (192.112.36.4)
+         → TLD: c.gtld-servers.net (192.26.92.30)
+         → Authoritative: ns1.dreamhost.com (162.159.26.14)
+      Servers Visited:  4 (traced)
+      Response:         67.205.28.253
+      RTT:              548.0 ms
+      Total Time:       2359.37 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         67.205.28.253
+      RTT:              28.0 ms
+      Total Time:       51.44 ms
+      Speedup:          19.6x faster
+      Latency Reduction: 95%
+
+8. amorefieldlife.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: g.root-servers.net (192.112.36.4)
+         → TLD: a.gtld-servers.net (192.5.6.30)
+         → Authoritative: ns2.bluehost.com (162.159.25.175)
+      Servers Visited:  4 (traced)
+      Response:         162.241.226.124
+      RTT:              76.0 ms
+      Total Time:       1400.38 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         162.241.226.124
+      RTT:              24.0 ms
+      Total Time:       43.57 ms
+      Speedup:          3.2x faster
+      Latency Reduction: 68%
+
+9. aqvr.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Full Resolution Path (Traced):
+         → TLD: 10.0.0.5 (10.0.0.5)
+         → TLD: e.root-servers.net (192.203.230.10)
+         → TLD: f.gtld-servers.net (192.35.51.30)
+         → Authoritative: a.namestar.com (89.117.23.47)
+      Servers Visited:  4 (traced)
+      Response:         89.117.19.57
+      RTT:              60.0 ms
+      Total Time:       1519.79 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         89.117.19.57
+      RTT:              20.0 ms
+      Total Time:       41.09 ms
+      Speedup:          3.0x faster
+      Latency Reduction: 67%
+
+10. asadventure.com
+   PHASE 1 (Initial Query - Cache MISS):
+      Resolution Mode:  Recursive
+      DNS Server:       10.0.0.5
+      Resolution Step:  dnsmasq -> upstream (8.8.8.8/8.8.4.4)
+      Servers Visited:  4 (estimated)
+      Response:         143.204.55.107, 143.204.55.22, 143.204.55.46, 143.204.55.60
+      RTT:              128.0 ms
+      Total Time:       148.9 ms
+
+   PHASE 2 (Re-query - Cache HIT):
+      Resolution Step:  dnsmasq cache
+      Servers Visited:  1
+      Response:         143.204.55.107, 143.204.55.22, 143.204.55.46, 143.204.55.60
+      RTT:              28.0 ms
+      Total Time:       45.19 ms
+      Speedup:          4.6x faster
+      Latency Reduction: 78%
+
+================================================================================
+Summary Statistics:
+  Average Phase 1 Latency:   121.60 ms
+  Average Phase 2 Latency:   24.40 ms
+  Average Speedup:           4.73x
+  Cache Hit Rate (Phase 2):  10/10 (100%)
+  Overall Latency Reduction: 80%
+================================================================================

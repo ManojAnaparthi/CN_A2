@@ -1,0 +1,67 @@
+7sports.jp: 150.95.219.152
+a-loud.com: 183.111.199.180
+alkoholiker-clan.de: 78.46.86.91
+alltransport.ru: 141.8.192.214
+amedeos.net: 76.223.105.230, 13.248.243.5
+androgyn.org: 217.160.0.127
+atomicbase.com: 192.252.149.20
+bigjournalism.com: 104.21.75.65, 172.67.215.184
+brfone.com: 13.223.25.84, 54.243.117.197
+brown.edu: 128.148.252.151
+capella.edu: 172.64.146.16, 104.18.41.240
+casco.com: 216.150.1.1
+cellularfactory.com: 208.91.197.27
+cncdesign.co.kr: 175.126.62.41
+congsoxanh.com: 104.21.64.129, 172.67.150.218
+consejodentistas.org: 213.151.115.236
+datadikdki.net: 104.21.55.109, 172.67.171.27
+doommovie.com: 172.67.206.138, 104.21.50.133
+elettronix.com: 217.64.201.130
+gamepsvita.com: 104.21.73.148, 172.67.145.175
+gaybodyblog.com: 148.72.167.158
+gba4iosapp.com: 198.49.23.144
+gucenmez.com: 172.67.149.173, 104.21.39.228
+gvowebcast.com: 172.67.176.152, 104.21.83.130
+hivelocitymedia.com: 172.67.152.101, 104.21.1.224
+horn-elektronik.com: 92.43.119.40
+hotel.ch: 172.67.191.193, 104.21.36.90
+huhgmbh.com: 13.223.25.84, 54.243.117.197
+hznzcn.com: 120.55.81.189
+jabeye.org: 173.236.216.220
+jcwcn.com: 128.14.74.54
+ku.edu: 129.237.135.76
+lighthouse.cc: 192.110.166.196
+likeminded.ca: 198.100.154.154
+ljyelectronic.com: 156.232.155.66
+mattselznick.com: 44.245.84.147
+meintrendyhandy.de: 94.143.8.110
+metabans.com: 104.21.65.104, 172.67.162.83
+mplus.hk: 159.138.153.43
+mpskota.com: 20.192.98.161
+mumphi.de: 87.106.48.102
+newpages2u.com: 110.74.174.131
+nipslab.org: 89.46.108.36
+nucre.com: 185.53.179.170
+oberoncompany.com: 104.21.68.213, 172.67.198.171
+ohdev.co.uk: 51.89.253.246
+ovtoc.com: 64.190.63.222
+qdushu.com: 172.65.185.109
+redcrosseth.org: 65.21.72.120
+rousing.dk: 212.237.249.17
+seedy.dk: 93.191.156.22
+thankfullyyours.com: 23.227.38.32
+thereeftank.com: 151.101.65.91, 151.101.129.91, 151.101.1.91, 151.101.193.91
+thunderex.com: 97.74.85.52
+tomorrowsreflection.com: 34.67.56.17
+tonaci.com: 69.46.47.132
+topilehtipuu.com: 103.224.182.253
+tretsomshop.nl: 23.227.38.32
+tsksv.ru: 91.199.149.117
+uanet.net: 38.55.165.9
+udoo24.com: 185.232.14.229
+vaco.ru: 81.88.217.58
+visualtap.com: 52.20.84.62
+webxtrap.com: 109.234.165.168
+womenology.com: 213.186.33.4
+zamlelova.ru: 79.174.69.231
+zilch.org: 104.237.133.18
